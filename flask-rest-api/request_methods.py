@@ -6,7 +6,7 @@ Created on Sat Sep 30 09:22:48 2023
 """
 import json
 from flask import Flask, jsonify, request
-1
+
 """Perform CRUD (Create, Read, Update, Delete) operations on data stored in a JSON file"""
 app = Flask(__name__)
 
