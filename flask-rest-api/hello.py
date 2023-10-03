@@ -21,6 +21,10 @@ def hello_world():
 
 #app.add_url_rule('/', 'hello', hello_world)
 
+def show_animal(animalname):
+   return f"Hello {animalname}"
+app.add_url_rule("/animal/<animalname>", "show_animal", show_animal)
+#http://localhost:5000/animal/Cat
 
 """Variables"""
 @app.route('/hello/<name>')      
