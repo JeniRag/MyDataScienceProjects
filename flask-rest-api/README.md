@@ -1,5 +1,5 @@
 
-
+This project contains my notes and summaries from the tutorials I have been following.
 # Flask Quick Start
 
 Tutorial: [https://pythonbasics.org/flask-rest-api/](https://pythonbasics.org/flask-rest-api/) and [https://www.geeksforgeeks.org/flask-tutorial/?ref=lbp](https://www.geeksforgeeks.org/flask-tutorial/?ref=lbp)
