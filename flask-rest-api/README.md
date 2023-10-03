@@ -18,7 +18,7 @@ In an folder, where the scipt is described as app.py one of the following can be
 flask --app app run
 flask run
 python app.py
-``
+```
 
 ``` 
 run() 
@@ -218,3 +218,7 @@ One feature of REST API is it's statelessness, after the server completes one ac
 Source: [https://www.askpython.com/python-modules/flask/flask-rest-ap](https://www.askpython.com/python-modules/flask/flask-rest-api)
 
 # Serve Templates and Static Files in Flask
+The example in **template_and_static_files\template_example** containes an "wlcome.html" template. After passing the variable name in the render_template function, it is accessible in the template to render the variable.
+In **template_and_static_files\inheritance_example** a Jinja Template Inheritance Example is shown. 
+In the index.html, everything belows {% endblock %} and everything above {% block body%} tag is copied.
+Absolute URLS are used with "{{}}"
